@@ -37,7 +37,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # add the second argument to the memorial day array
   holiday_hash.each do |season, holiday|
     if holiday == :memorial_day
-      holiday[:memodial_day] << "Grill", "Table Cloth"]
+      holiday[:memodial_day] << ["Grill", "Table Cloth"]
     end
   end
 end
